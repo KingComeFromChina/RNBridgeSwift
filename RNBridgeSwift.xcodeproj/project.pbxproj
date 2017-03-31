@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A88174E5AB03A051BB71FE1 /* Pods_RNBridgeSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD448BB60CFF8F9376A87F /* Pods_RNBridgeSwift.framework */; };
+		9B0975BB1E8CD86C009C52E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975BA1E8CD86C009C52E0 /* AppDelegate.swift */; };
+		9B0975BD1E8CD86C009C52E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975BC1E8CD86C009C52E0 /* ViewController.swift */; };
+		9B0975C01E8CD86C009C52E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0975BE1E8CD86C009C52E0 /* Main.storyboard */; };
+		9B0975C21E8CD86C009C52E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B0975C11E8CD86C009C52E0 /* Assets.xcassets */; };
+		9B0975C51E8CD86C009C52E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B0975C31E8CD86C009C52E0 /* LaunchScreen.storyboard */; };
+		9B0975D01E8CD86C009C52E0 /* RNBridgeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975CF1E8CD86C009C52E0 /* RNBridgeSwiftTests.swift */; };
+		9B0975DB1E8CD86C009C52E0 /* RNBridgeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975DA1E8CD86C009C52E0 /* RNBridgeSwiftUITests.swift */; };
+		9B0975E91E8CE440009C52E0 /* RNManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975E81E8CE440009C52E0 /* RNManagerViewController.swift */; };
+		9B0975ED1E8CFB38009C52E0 /* RNManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B0975EC1E8CFB38009C52E0 /* RNManagerBridge.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B0975CC1E8CD86C009C52E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0975AF1E8CD86C009C52E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0975B61E8CD86C009C52E0;
+			remoteInfo = RNBridgeSwift;
+		};
+		9B0975D71E8CD86C009C52E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B0975AF1E8CD86C009C52E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B0975B61E8CD86C009C52E0;
+			remoteInfo = RNBridgeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		578E920F48C068B9D907C52E /* Pods-RNBridgeSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeSwift/Pods-RNBridgeSwift.release.xcconfig"; sourceTree = "<group>"; };
+		9B0975B71E8CD86C009C52E0 /* RNBridgeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNBridgeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0975BA1E8CD86C009C52E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B0975BC1E8CD86C009C52E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B0975BF1E8CD86C009C52E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B0975C11E8CD86C009C52E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B0975C41E8CD86C009C52E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B0975C61E8CD86C009C52E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0975CB1E8CD86C009C52E0 /* RNBridgeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0975CF1E8CD86C009C52E0 /* RNBridgeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeSwiftTests.swift; sourceTree = "<group>"; };
+		9B0975D11E8CD86C009C52E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0975D61E8CD86C009C52E0 /* RNBridgeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNBridgeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0975DA1E8CD86C009C52E0 /* RNBridgeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeSwiftUITests.swift; sourceTree = "<group>"; };
+		9B0975DC1E8CD86C009C52E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B0975E81E8CE440009C52E0 /* RNManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNManagerViewController.swift; sourceTree = "<group>"; };
+		9B0975EA1E8CFB37009C52E0 /* RNBridgeSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNBridgeSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B0975EB1E8CFB38009C52E0 /* RNManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNManagerBridge.h; sourceTree = "<group>"; };
+		9B0975EC1E8CFB38009C52E0 /* RNManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNManagerBridge.m; sourceTree = "<group>"; };
+		A318E64302737C7570288DF9 /* Pods_RNBridgeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBridgeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB12F165B55CC8F7FB99290 /* Pods_RNBridgeSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBridgeSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAD448BB60CFF8F9376A87F /* Pods_RNBridgeSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNBridgeSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD5DB7A603E2BDB2BB3F11B /* Pods-RNBridgeSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeSwift/Pods-RNBridgeSwift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B0975B41E8CD86C009C52E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A88174E5AB03A051BB71FE1 /* Pods_RNBridgeSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975C81E8CD86C009C52E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975D31E8CD86C009C52E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		429C63726E1FCF2FC8A455A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBAD448BB60CFF8F9376A87F /* Pods_RNBridgeSwift.framework */,
+				AEB12F165B55CC8F7FB99290 /* Pods_RNBridgeSwiftTests.framework */,
+				A318E64302737C7570288DF9 /* Pods_RNBridgeSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51704D629586A14DC37EB6BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5DB7A603E2BDB2BB3F11B /* Pods-RNBridgeSwift.debug.xcconfig */,
+				578E920F48C068B9D907C52E /* Pods-RNBridgeSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B0975AE1E8CD86C009C52E0 = {
+			isa = PBXGroup;
+			children = (
+				9B0975B91E8CD86C009C52E0 /* RNBridgeSwift */,
+				9B0975CE1E8CD86C009C52E0 /* RNBridgeSwiftTests */,
+				9B0975D91E8CD86C009C52E0 /* RNBridgeSwiftUITests */,
+				9B0975B81E8CD86C009C52E0 /* Products */,
+				51704D629586A14DC37EB6BC /* Pods */,
+				429C63726E1FCF2FC8A455A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B0975B81E8CD86C009C52E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B0975B71E8CD86C009C52E0 /* RNBridgeSwift.app */,
+				9B0975CB1E8CD86C009C52E0 /* RNBridgeSwiftTests.xctest */,
+				9B0975D61E8CD86C009C52E0 /* RNBridgeSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B0975B91E8CD86C009C52E0 /* RNBridgeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				9B0975BA1E8CD86C009C52E0 /* AppDelegate.swift */,
+				9B0975BC1E8CD86C009C52E0 /* ViewController.swift */,
+				9B0975E81E8CE440009C52E0 /* RNManagerViewController.swift */,
+				9B0975EB1E8CFB38009C52E0 /* RNManagerBridge.h */,
+				9B0975EC1E8CFB38009C52E0 /* RNManagerBridge.m */,
+				9B0975BE1E8CD86C009C52E0 /* Main.storyboard */,
+				9B0975C11E8CD86C009C52E0 /* Assets.xcassets */,
+				9B0975C31E8CD86C009C52E0 /* LaunchScreen.storyboard */,
+				9B0975C61E8CD86C009C52E0 /* Info.plist */,
+				9B0975EA1E8CFB37009C52E0 /* RNBridgeSwift-Bridging-Header.h */,
+			);
+			path = RNBridgeSwift;
+			sourceTree = "<group>";
+		};
+		9B0975CE1E8CD86C009C52E0 /* RNBridgeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0975CF1E8CD86C009C52E0 /* RNBridgeSwiftTests.swift */,
+				9B0975D11E8CD86C009C52E0 /* Info.plist */,
+			);
+			path = RNBridgeSwiftTests;
+			sourceTree = "<group>";
+		};
+		9B0975D91E8CD86C009C52E0 /* RNBridgeSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B0975DA1E8CD86C009C52E0 /* RNBridgeSwiftUITests.swift */,
+				9B0975DC1E8CD86C009C52E0 /* Info.plist */,
+			);
+			path = RNBridgeSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B0975B61E8CD86C009C52E0 /* RNBridgeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0975DF1E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwift" */;
+			buildPhases = (
+				8A1E66AE552A6F00A3BC27EB /* [CP] Check Pods Manifest.lock */,
+				9B0975B31E8CD86C009C52E0 /* Sources */,
+				9B0975B41E8CD86C009C52E0 /* Frameworks */,
+				9B0975B51E8CD86C009C52E0 /* Resources */,
+				1172F813A424BA7140E3B1FD /* [CP] Embed Pods Frameworks */,
+				8625DE4FA1B533A0B163C7A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBridgeSwift;
+			productName = RNBridgeSwift;
+			productReference = 9B0975B71E8CD86C009C52E0 /* RNBridgeSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B0975CA1E8CD86C009C52E0 /* RNBridgeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0975E21E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwiftTests" */;
+			buildPhases = (
+				9B0975C71E8CD86C009C52E0 /* Sources */,
+				9B0975C81E8CD86C009C52E0 /* Frameworks */,
+				9B0975C91E8CD86C009C52E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0975CD1E8CD86C009C52E0 /* PBXTargetDependency */,
+			);
+			name = RNBridgeSwiftTests;
+			productName = RNBridgeSwiftTests;
+			productReference = 9B0975CB1E8CD86C009C52E0 /* RNBridgeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B0975D51E8CD86C009C52E0 /* RNBridgeSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0975E51E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwiftUITests" */;
+			buildPhases = (
+				9B0975D21E8CD86C009C52E0 /* Sources */,
+				9B0975D31E8CD86C009C52E0 /* Frameworks */,
+				9B0975D41E8CD86C009C52E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B0975D81E8CD86C009C52E0 /* PBXTargetDependency */,
+			);
+			name = RNBridgeSwiftUITests;
+			productName = RNBridgeSwiftUITests;
+			productReference = 9B0975D61E8CD86C009C52E0 /* RNBridgeSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B0975AF1E8CD86C009C52E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王垒";
+				TargetAttributes = {
+					9B0975B61E8CD86C009C52E0 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					9B0975CA1E8CD86C009C52E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B0975B61E8CD86C009C52E0;
+					};
+					9B0975D51E8CD86C009C52E0 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B0975B61E8CD86C009C52E0;
+					};
+				};
+			};
+			buildConfigurationList = 9B0975B21E8CD86C009C52E0 /* Build configuration list for PBXProject "RNBridgeSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B0975AE1E8CD86C009C52E0;
+			productRefGroup = 9B0975B81E8CD86C009C52E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B0975B61E8CD86C009C52E0 /* RNBridgeSwift */,
+				9B0975CA1E8CD86C009C52E0 /* RNBridgeSwiftTests */,
+				9B0975D51E8CD86C009C52E0 /* RNBridgeSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B0975B51E8CD86C009C52E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0975C51E8CD86C009C52E0 /* LaunchScreen.storyboard in Resources */,
+				9B0975C21E8CD86C009C52E0 /* Assets.xcassets in Resources */,
+				9B0975C01E8CD86C009C52E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975C91E8CD86C009C52E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975D41E8CD86C009C52E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1172F813A424BA7140E3B1FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeSwift/Pods-RNBridgeSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8625DE4FA1B533A0B163C7A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeSwift/Pods-RNBridgeSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1E66AE552A6F00A3BC27EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B0975B31E8CD86C009C52E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0975ED1E8CFB38009C52E0 /* RNManagerBridge.m in Sources */,
+				9B0975BD1E8CD86C009C52E0 /* ViewController.swift in Sources */,
+				9B0975BB1E8CD86C009C52E0 /* AppDelegate.swift in Sources */,
+				9B0975E91E8CE440009C52E0 /* RNManagerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975C71E8CD86C009C52E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0975D01E8CD86C009C52E0 /* RNBridgeSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B0975D21E8CD86C009C52E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B0975DB1E8CD86C009C52E0 /* RNBridgeSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B0975CD1E8CD86C009C52E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0975B61E8CD86C009C52E0 /* RNBridgeSwift */;
+			targetProxy = 9B0975CC1E8CD86C009C52E0 /* PBXContainerItemProxy */;
+		};
+		9B0975D81E8CD86C009C52E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B0975B61E8CD86C009C52E0 /* RNBridgeSwift */;
+			targetProxy = 9B0975D71E8CD86C009C52E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B0975BE1E8CD86C009C52E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0975BF1E8CD86C009C52E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B0975C31E8CD86C009C52E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B0975C41E8CD86C009C52E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B0975DD1E8CD86C009C52E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B0975DE1E8CD86C009C52E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B0975E01E8CD86C009C52E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD5DB7A603E2BDB2BB3F11B /* Pods-RNBridgeSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RNBridgeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBridgeSwift/RNBridgeSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B0975E11E8CD86C009C52E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578E920F48C068B9D907C52E /* Pods-RNBridgeSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RNBridgeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNBridgeSwift/RNBridgeSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B0975E31E8CD86C009C52E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNBridgeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNBridgeSwift.app/RNBridgeSwift";
+			};
+			name = Debug;
+		};
+		9B0975E41E8CD86C009C52E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNBridgeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNBridgeSwift.app/RNBridgeSwift";
+			};
+			name = Release;
+		};
+		9B0975E61E8CD86C009C52E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RNBridgeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNBridgeSwift;
+			};
+			name = Debug;
+		};
+		9B0975E71E8CD86C009C52E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RNBridgeSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.king.RNBridgeSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RNBridgeSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B0975B21E8CD86C009C52E0 /* Build configuration list for PBXProject "RNBridgeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0975DD1E8CD86C009C52E0 /* Debug */,
+				9B0975DE1E8CD86C009C52E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0975DF1E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0975E01E8CD86C009C52E0 /* Debug */,
+				9B0975E11E8CD86C009C52E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0975E21E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0975E31E8CD86C009C52E0 /* Debug */,
+				9B0975E41E8CD86C009C52E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0975E51E8CD86C009C52E0 /* Build configuration list for PBXNativeTarget "RNBridgeSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B0975E61E8CD86C009C52E0 /* Debug */,
+				9B0975E71E8CD86C009C52E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B0975AF1E8CD86C009C52E0 /* Project object */;
+}
